@@ -84,3 +84,8 @@ basicHandWashing.csv -> Population with basic handwashing facilities at home (%)
 
 ### Clean household energy
 cleanFuelAndTech.csv -> Proportion of population with primary reliance on clean fuels and technologies (%)
+
+# Data Preperation and cleaning
+
+1. The data was saved as multiple csv files so I had to convert it into one file using Power Query.
+2. I then had to organise each health statistic indicator into its own columns, using a pivot table
