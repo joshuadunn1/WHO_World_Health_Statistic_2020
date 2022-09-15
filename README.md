@@ -3,7 +3,7 @@ This is a dataset obtained from Kaggle (https://www.kaggle.com/datasets/utkarshx
 
 # Data Preperation and Cleaning
 
-1. The data was saved as multiple csv files so I had to convert it into one file using Power Query.
+1. The data was saved as multiple csv files so the files were concatenated using **Power Query**, saved as STATS_COMBINED.csv.
 2. I then had to organise each health statistic indicator into its own columns, using a pivot table
 
 ### Reference for DATASET
