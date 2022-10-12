@@ -2,8 +2,17 @@
 This is a dataset obtained from Kaggle (https://www.kaggle.com/datasets/utkarshxy/who-worldhealth-statistics-2020-complete) and contains recent health statistics of the world.
 
 # Results
+Here I plotted the average life expectancy and healthy life expectancy of each country, where the shades of red signidies lower average age and blue signifies higher average age. Here we see that the African and middle east regions typically have lower life expectancy for both healthy and normal mortality compared to other regions. Countryies such as Japan, Singapore, and Switzerland had the highest life expectancy. I was then interested to seeing what factors lead to lower or higher life expectancy in these countries.
+
+Tableau map dashboard: https://public.tableau.com/app/profile/joshua.kent.dunn/viz/WHOhealthstatanalysis/IntroductoryOverview
+![life expectancy](https://github.com/joshuadunn1/WHO_World_Health_Statistic_2020/blob/main/Introductory%20Overview.png)
+
+I then calculated correlation between each factor using pearsons correlation. I did this to sepcifically see which factors were highly correlated with life expectancy. I found that basic service coverage, sanitation, and basic drinking water services were those factor most positivly correlated with life expectancy. Factors such as adolescent birth rate and mortality attributed to unintentional poisening (most likely due to poor sanitation and drinking water) were negatively correlated with life expectancy.
 
 Tableau Correlation Dashboard: https://public.tableau.com/app/profile/joshua.kent.dunn/viz/WHO_Correlation/Dashboard1?publish=yes
+![Correlation](https://github.com/joshuadunn1/WHO_World_Health_Statistic_2020/blob/main/WHO_CORRELATION.png)
+
+
 # Data Preperation and Cleaning
 
 1. The data was saved as multiple csv files so the files were concatenated using **Power Query**, saved as STATS_COMBINED.csv.
