@@ -2,7 +2,7 @@
 This is a dataset obtained from Kaggle (https://www.kaggle.com/datasets/utkarshxy/who-worldhealth-statistics-2020-complete) and contains recent health statistics of the world.
 
 # Results
-Here I plotted the average life expectancy and healthy life expectancy of each country, where the shades of red signidies lower average age and blue signifies higher average age. Here we see that the African and middle east regions typically have lower life expectancy for both healthy and normal mortality compared to other regions. Countryies such as Japan, Singapore, and Switzerland had the highest life expectancy. I was then interested to seeing what factors lead to lower or higher life expectancy in these countries.
+Here I plotted the average life expectancy and healthy life expectancy of each country, where the shades of red signifies lower average age and blue signifies higher average age. Here we see that the African and middle east regions typically have lower life expectancy for both healthy and normal mortality compared to other regions. Countryies such as Japan, Singapore, and Switzerland had the highest life expectancy. I was then interested to seeing what factors lead to lower or higher life expectancy in these countries.
 
 Tableau map dashboard: https://public.tableau.com/app/profile/joshua.kent.dunn/viz/WHOhealthstatanalysis/IntroductoryOverview
 ![life expectancy](https://github.com/joshuadunn1/WHO_World_Health_Statistic_2020/blob/main/Introductory%20Overview.png)
